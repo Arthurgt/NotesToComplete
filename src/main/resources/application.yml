@@ -1,0 +1,8 @@
+server.port: 8090
+spring:
+  h2.console:
+    enabled: true
+    path: '/console'
+  datasource:
+    url: 'jdbc:h2:file:C:/Users/Arczi/Desktop/IT/Java/NotesToComplete/todo-db'
+task.allowMultipleTasksFromTemplate: false
